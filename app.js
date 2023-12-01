@@ -4,7 +4,7 @@ const ejs = require("ejs");
 const _ = require('lodash');
 const mongoose = require("mongoose");
 
-mongoose.connect("mongodb+srv://annasfurquan27:mPK3WGmFvQh2F4JX@cluster0.jtkod08.mongodb.net/blogDB");
+mongoose.connect("mongodb+srv://skarfistark:arifulla616@cluster0.ldvegku.mongodb.net/enoteDB");
 
 const postSchema = new mongoose.Schema({
   title:String,
